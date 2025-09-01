@@ -1,6 +1,7 @@
 # 📊 Consulta CNPJ
 
 Aplicação Fullstack desenvolvida como parte de um desafio técnico.
+
 Aplicação **frontend** desenvolvida em **Vue 3 + Vite** para consulta de CNPJs, exibindo informações completas da empresa, incluindo **dados cadastrais, atividades econômicas e sócios**.
 
 ---
