@@ -58,7 +58,7 @@ npm run dev
 
 👩‍💻 Autora
 
-Mary Hunter
-📧 mary.hunter177@gmail.com
+👩‍💻 Desenvolvedora
 
-💻 GitHub
+Feito com 💙 por Mary Hunter
+🔗 GitHub
