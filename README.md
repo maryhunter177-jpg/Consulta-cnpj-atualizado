@@ -1,35 +1,40 @@
-# frontend-cnpj
+📌 Consulta CNPJ
 
-This template should help get you started developing with Vue 3 in Vite.
+Aplicação Fullstack desenvolvida como parte de um desafio técnico.
+Permite consultar informações de um CNPJ consumindo dados da Brasil API
+.
 
-## Recommended IDE Setup
+⚙️ Tecnologias utilizadas
+🔹 Backend
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+PHP (Laravel) – API intermediária para consumir a Brasil API.
 
-## Customize configuration
+Tratamento dos dados antes de enviar para o frontend.
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+🔹 Frontend
 
-## Project Setup
+Vue.js – construção da interface do usuário.
 
-```sh
-npm install
-```
+HTML5, CSS3 e JavaScript.
 
-### Compile and Hot-Reload for Development
+🖥️ Funcionalidades
 
-```sh
-npm run dev
-```
+Inserir um CNPJ e consultar dados em tempo real.
 
-### Compile and Minify for Production
+Exibição das informações principais:
 
-```sh
-npm run build
-```
+Razão Social
 
-### Lint with [ESLint](https://eslint.org/)
+Data de Abertura
 
-```sh
-npm run lint
-```
+CNPJ
+
+Endereço completo (Logradouro, Número, Bairro, Município, UF, CEP)
+
+Capital Social
+
+Consulta da atividade econômica (CNAEs).
+
+Consulta do quadro de sócios.
+
+Interface responsiva e estilizada.
