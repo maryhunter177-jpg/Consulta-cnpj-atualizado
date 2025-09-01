@@ -1,40 +1,62 @@
-📌 Consulta CNPJ
+# 📊 Consulta CNPJ
 
-Aplicação Fullstack desenvolvida como parte de um desafio técnico.
-Permite consultar informações de um CNPJ consumindo dados da Brasil API
-.
+Aplicação **frontend** desenvolvida em **Vue 3 + Vite** para consulta de CNPJs, exibindo informações completas da empresa, incluindo **dados cadastrais, atividades econômicas e sócios**.
 
-⚙️ Tecnologias utilizadas
-🔹 Backend
+---
 
-PHP (Laravel) – API intermediária para consumir a Brasil API.
+## ✨ Funcionalidades
 
-Tratamento dos dados antes de enviar para o frontend.
+✅ Consulta de CNPJ em tempo real  
+✅ Exibição dos dados principais da empresa  
+✅ Informações sobre atividades econômicas  
+✅ Lista de sócios
 
-🔹 Frontend
+---
 
-Vue.js – construção da interface do usuário.
+## 🖼️ Demonstração do Projeto
 
-HTML5, CSS3 e JavaScript.
+### 📌 Informações da Empresa
 
-🖥️ Funcionalidades
+![Informações](./imagem/imagem1-informacoes.png)
 
-Inserir um CNPJ e consultar dados em tempo real.
+---
 
-Exibição das informações principais:
+### 📌 Atividade Econômica
 
-Razão Social
+![Atividade Econômica](./imagem/imagem2-atividade-economica.png)
 
-Data de Abertura
+---
 
-CNPJ
+### 📌 Sócios
 
-Endereço completo (Logradouro, Número, Bairro, Município, UF, CEP)
+![Sócios](./imagem/imagem3-socios.png)
 
-Capital Social
+---
 
-Consulta da atividade econômica (CNAEs).
+## ⚙️ Como rodar o projeto
 
-Consulta do quadro de sócios.
+1. **Clone este repositório**
+   ```sh
+   git clone https://github.com/maryhunter177-jpg/Consulta-cnpj.git
+   ```
+   Acesse a pasta do projeto
 
-Interface responsiva e estilizada.
+cd frontend-cnpj
+
+Instale as dependências
+
+npm install
+
+Execute o servidor local
+
+npm run dev
+
+📍 O app estará rodando em:
+👉 http://localhost:5173
+
+👩‍💻 Autora
+
+Mary Hunter
+📧 mary.hunter177@gmail.com
+
+💻 GitHub
