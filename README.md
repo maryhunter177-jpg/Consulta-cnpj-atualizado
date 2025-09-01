@@ -56,8 +56,6 @@ npm run dev
 📍 O app estará rodando em:
 👉 http://localhost:5173
 
-👩‍💻 Autora
-
 👩‍💻 Desenvolvedora
 
 Feito com 💙 por Mary Hunter
