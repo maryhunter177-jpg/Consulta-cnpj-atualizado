@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const cnpj = input.value.replace(/\D/g, '')
 
     try {
-      const resposta = await fetch(`http://127.0.0.1:5000/consulta?cnpj=${cnpj}`)
+      const resposta = await fetch(`http://127.0.0.1:8000/api/cnpj?cnpj=${cnpj}`)
       const dados = await resposta.json()
 
       if (dados.erro) {
